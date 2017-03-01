@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+                    //Triangulo Area = 1/2(base x altura)
+        Console.Write("Por favor, escriba el valor b de su triángulo: ");
+        decimal lado = decimal.Parse(Console.ReadLine());
+        Console.Write("Por favor escriba el valor h de su triángulo ");
+        decimal altura = decimal.Parse(Console.ReadLine());
+ 
+        decimal area = (lado * altura) / 2;
+        Console.WriteLine("El área de su triángulo es: {0}", area);
+        Console.ReadKey();
+        }
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Rectangulo Area: A (area) = L (largo) x W (ancho)
+            Console.Write("Escriba la longitud de su rectángulo: ");
+            decimal largo = decimal.Parse(Console.ReadLine());
+            Console.Write("Escriba la anchura de su rectángulo: ");
+            decimal ancho = decimal.Parse(Console.ReadLine());
+
+            decimal area = largo * ancho;
+            Console.WriteLine("El área del rectángulo es: {0}", area);
+            Console.ReadKey();
+
+            
+        }
+    }
+}
+        
+    
+
