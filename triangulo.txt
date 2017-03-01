@@ -1,0 +1,17 @@
+using System;
+using System.Text;
+ 
+class AreaTriangulo
+{
+    static void Main()
+    {
+        //Triangulo Area = 1/2(base x altura)
+        Console.Write("Por favor, escriba el valor \ "b \" de su triángulo: ");
+        decimal lado = decimal.Parse(Console.ReadLine());
+        Console.Write("Por favor escriba el valor \ "h \" de su triángulo ");
+        decimal altura = decimal.Parse(Console.ReadLine());
+ 
+        decimal area = (lado * altura) / 2;
+        Console.WriteLine("El área de su triángulo es: {0}", area);
+    }
+}

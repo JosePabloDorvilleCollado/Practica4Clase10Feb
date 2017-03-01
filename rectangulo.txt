@@ -1,0 +1,16 @@
+using System;
+ 
+class AreaRectangulo
+{
+    static void Main()
+    {
+        //Rectangulo Area: A (area) = L (largo) x W (ancho)
+        Console.Write("Escriba la longitud de su rectángulo: ");
+        decimal largo = decimal.Parse(Console.ReadLine());
+        Console.Write("Escriba la anchura de su rectángulo: ");
+        decimal ancho = decimal.Parse(Console.ReadLine());
+ 
+        decimal area = largo * ancho;
+        Console.WriteLine("El área del rectángulo es: {0}", area);
+    }
+}
