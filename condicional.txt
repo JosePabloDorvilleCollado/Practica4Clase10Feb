@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace EJERCICIO_PRIMERO
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int A, B, C;
+            Console.Clear();
+            Console.SetCursorPosition(5, 4);
+            Console.Write("entre un numero:  ");
+            A = int.Parse(Console.ReadLine());
+            Console.SetCursorPosition(5, 5);
+            Console.Write("entre otro numero:  ");
+            B = int.Parse(Console.ReadLine());
+            C = A + B;
+            Console.SetCursorPosition(5, 7);
+            Console.Write("LA SUMA ES: {0}",C);
+            Console.ReadKey(); 
+            if (C>200 & C<400)
+            {
+                Console.SetCursorPosition(5, 9);
+                Console.Write("Feliz Viaje");
+            }
+            else if (C > 400 & C <= 800)
+            {
+                Console.SetCursorPosition(5, 9);
+                Console.Write("te quedas en casa palomo");
+            }
+            else if (C > 801 & C <= 1000)
+            {
+                Console.SetCursorPosition(5, 9);
+                Console.Write("trabajas");
+
+            }
+            else
+            {
+                Console.SetCursorPosition(5, 9);
+                Console.Write("estudia mijo te vas a quemar");
+            }
+            Console.ReadKey();
+    }
+    }
+
+}

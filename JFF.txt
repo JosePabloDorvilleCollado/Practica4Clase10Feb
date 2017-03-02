@@ -1,0 +1,81 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Triangulo Area = 1/2(base x altura)
+            Console.WriteLine("Buenas! bienvenido a mi programa de formula de triangulo y de rectangulo!");
+            Console.WriteLine("Jose Pablo Dorville Collado Matricula #2014-0163");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("          JJJJJJJJJJJPPPPPPPPPPPPPPPPP   DDDDDDDDDDDDD                CCCCCCCCCC");
+            Console.WriteLine("          J:::::::::JP::::::::::::::::P  D::::::::::::DDD          CCC::::::::::");
+            Console.WriteLine("          J:::::::::JP::::::PPPPPP:::::P D:::::::::::::::DD      CC:::::::::::::");
+            Console.WriteLine("          JJ:::::::JJPP:::::P     P:::::PDDD:::::DDDDD:::::D    C:::::CCCCCCCC::");
+            Console.WriteLine("            J:::::J    P::::P     P:::::P  D:::::D    D:::::D  C:::::C       CCC");
+            Console.WriteLine("            J:::::J    P::::P     P:::::P  D:::::D     D:::::DC:::::C           ");
+            Console.WriteLine("            J:::::J    P::::PPPPPP:::::P   D:::::D     D:::::DC:::::C           ");
+            Console.WriteLine("            J:::::j    P:::::::::::::PP    D:::::D     D:::::DC:::::C           ");
+            Console.WriteLine("            J:::::J    P::::PPPPPPPPP      D:::::D     D:::::DC:::::C           ");
+            Console.WriteLine("JJJJJJJ     J:::::J    P::::P              D:::::D     D:::::DC:::::C           ");
+            Console.WriteLine("J:::::J     J:::::J    P::::P              D:::::D     D:::::DC:::::C           ");
+            Console.WriteLine("J::::::J   J::::::J    P::::P              D:::::D    D:::::D  C:::::C       CCC");
+            Console.WriteLine("J:::::::JJJ:::::::J  PP::::::PP          DDD:::::DDDDD:::::D    C:::::CCCCCCCC::");
+            Console.WriteLine(" JJ:::::::::::::JJ   P::::::::P          D:::::::::::::::DD      CC:::::::::::::");
+            Console.WriteLine("   JJ:::::::::JJ     P::::::::P          D::::::::::::DDD          CCC::::::::::");
+            Console.WriteLine("     JJJJJJJJJ       PPPPPPPPPP          DDDDDDDDDDDDD                CCCCCCCCCC");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.Write("Por favor, escriba la base de su triángulo: ");
+            int lado = int.Parse(Console.ReadLine());
+            Console.Write("Por favor escriba el valor altura de su triángulo ");
+            int altura = int.Parse(Console.ReadLine());
+            int area = (lado * altura) / 2;
+            Console.WriteLine("El area del triangulo es: {0}", area);
+            Console.ReadKey();
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+
+            //Rectangulo Area: A (area) = L (largo) x W (ancho)
+            Console.Write("Por favor, escriba el largo de su rectangulo: ");
+            int largox = int.Parse(Console.ReadLine());
+            Console.Write("Por favor, escriba el ancho de su triángulo: ");
+            int anchox = int.Parse(Console.ReadLine());
+
+            int areax = largox * anchox;
+            Console.WriteLine("El area del rectangulo es: {0}", areax);
+            Console.ReadKey();
+            Console.WriteLine("---------------------------------------------------------------------------------");
+            Console.WriteLine("---------------------------------------------------------------------------------");
+            Console.WriteLine("Gracias por usar mi programa! vuelva pronto!");
+            Console.WriteLine("Jose Pablo Dorville Collado Matr. 2014-0163");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("BBBBBBBBBBBBBBBBB   YYYYYYY       YYYYYYYEEEEEEEEEEEEEEEEEEEEEE");
+            Console.WriteLine("B::::::::::::::::B  Y:::::Y       Y:::::YE::::::::::::::::::::E");
+            Console.WriteLine("B::::::BBBBBB:::::B Y:::::Y       Y:::::YE::::::::::::::::::::E");
+            Console.WriteLine("BB:::::B     B:::::BY::::::Y     Y::::::YEE::::::EEEEEEEEE::::E");
+            Console.WriteLine("  B::::B     B:::::BYYY:::::Y   Y:::::YYY  E:::::E       EEEEEE");
+            Console.WriteLine("  B::::B     B:::::B   Y:::::Y Y:::::Y     E:::::E             ");
+            Console.WriteLine("  B::::BBBBBB:::::B     Y:::::Y:::::Y      E::::::EEEEEEEEEE  ");
+            Console.WriteLine("  B:::::::::::::BB       Y:::::::::Y       E:::::::::::::::E   ");
+            Console.WriteLine("  B::::BBBBBB:::::B       Y:::::::Y        E:::::::::::::::E    ");
+            Console.WriteLine("  B::::B     B:::::B       Y:::::Y         E::::::EEEEEEEEEE   ");
+            Console.WriteLine("  B::::B     B:::::B       Y:::::Y         E:::::E             ");
+            Console.WriteLine("  B::::B     B:::::B       Y:::::Y         E:::::E       EEEEEE");
+            Console.WriteLine("BB:::::BBBBBB::::::B       Y:::::Y       EE::::::EEEEEEEE:::::E");
+            Console.WriteLine("B:::::::::::::::::B     YYYY:::::YYYY    E::::::::::::::::::::E");
+            Console.WriteLine("B::::::::::::::::B      Y:::::::::::Y    E::::::::::::::::::::E");
+            Console.WriteLine("BBBBBBBBBBBBBBBBB       YYYYYYYYYYYYY    EEEEEEEEEEEEEEEEEEEEEE");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------------------------------");
+            Console.ReadKey();
+        }
+    }
+}

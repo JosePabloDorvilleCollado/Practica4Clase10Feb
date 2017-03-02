@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ultimo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i,a,total,Cont, prom;
+            total=0;
+            Cont = 0;
+            Console.Clear();
+            for (i = 0; i <= 5; i++)
+            {
+                Console.SetCursorPosition(5, i +2);
+                Console.Write("Digite un valor:");
+                a=int.Parse(Console.ReadLine());
+                total=total+a;
+                Cont = Cont + 1;
+
+        }
+            prom = total / Cont;
+            Console.Write("el promedio es " + prom);
+            Console.Read();
+
+    }
+    }
+}
