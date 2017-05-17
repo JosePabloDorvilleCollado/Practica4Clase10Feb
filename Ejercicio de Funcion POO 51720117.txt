@@ -1,0 +1,91 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Ejercicio51717
+{
+    class Program
+    {
+        static int FuncionRectangulo(int x, int y)
+        {
+            int resultado;
+            resultado = 2*(x + y);
+            return resultado;
+        }
+        static void Main(string[] args)
+        {
+
+            int b1 = 0;
+            int a1 = 0;
+            int total1 = 0;
+            int b2 = 0;
+            int a2 = 0;
+            int total2 = 0;
+            int b3 = 0;
+            int a3 = 0;
+            int total3 = 0;
+            int b4 = 0;
+            int a4 = 0;
+            int total4 = 0;
+            int b5 = 0;
+            int a5 = 0;
+            int total5 = 0;
+            Console.Write("Buenas! digite el valor de base del 1er Triangulo:   ");
+            b1 = Convert.ToInt16(Console.ReadLine());
+            Console.Write("Buenas! digite el valor de area del 1er Triangulo:   ");
+            a1 = Convert.ToInt16(Console.ReadLine());
+            total1 = FuncionRectangulo(a1, b1);
+            Console.Write("El perimetro del primer triangulo es:   " + total1);
+            Console.ReadKey();
+            Console.Clear();
+            Console.Write("Buenas! digite el valor de base del 2do Triangulo:   ");
+            b2 = Convert.ToInt16(Console.ReadLine());
+            Console.Write("Buenas! digite el valor de area del 2do Triangulo:   ");
+            a2 = Convert.ToInt16(Console.ReadLine());
+            total2 = FuncionRectangulo(a2, b2);
+            Console.Write("El area del segundo triangulo es:   " + total2);
+            Console.ReadKey();
+            Console.Clear();
+            Console.Write("Buenas! digite el valor de base del 3er Triangulo:   ");
+            b3 = Convert.ToInt16(Console.ReadLine());
+            Console.Write("Buenas! digite el valor de area del 3er Triangulo:   ");
+            a3 = Convert.ToInt16(Console.ReadLine());
+            total3 = FuncionRectangulo(a3, b3);
+            Console.Write("El area del tercer triangulo es:   " + total3);
+            Console.ReadKey();
+            Console.Clear();
+            Console.Write("Buenas! digite el valor de base del 4to Triangulo:   ");
+            b4 = Convert.ToInt16(Console.ReadLine());
+            Console.Write("Buenas! digite el valor de area del 4to Triangulo:   ");
+            a4 = Convert.ToInt16(Console.ReadLine());
+            total4 = FuncionRectangulo(a4, b4);
+            Console.Write("El area del cuarto triangulo es:   " + total4);
+            Console.ReadKey();
+            Console.Clear();
+            Console.Write("Buenas! digite el valor de base del 5to Triangulo:   ");
+            b5 = Convert.ToInt16(Console.ReadLine());
+            Console.Write("Buenas! digite el valor de area del 5to Triangulo:   ");
+            a5 = Convert.ToInt16(Console.ReadLine());
+            total5 = FuncionRectangulo(a5, b5);
+            Console.Write("El area del quinto triangulo es:   " + total5);
+            Console.ReadKey();
+            Console.Clear();
+            Console.SetCursorPosition(10, 5);
+            Console.Write("Aqui estan los perimetros de los triangulos");
+            Console.SetCursorPosition(10, 7);
+            Console.Write("El perimetro del primer triangulo es:  "+ total1);
+            Console.SetCursorPosition(10, 9);
+            Console.Write("El perimetro del segundo triangulo es: " + total2);
+            Console.SetCursorPosition(10, 11);
+            Console.Write("El perimetro del segundo triangulo es: " + total3);
+            Console.SetCursorPosition(10, 13);
+            Console.Write("El perimetro del segundo triangulo es: " + total4);
+            Console.SetCursorPosition(10, 15);
+            Console.Write("El perimetro del segundo triangulo es: " + total5);
+            Console.ReadKey();
+
+
+        }
+    }
+}
