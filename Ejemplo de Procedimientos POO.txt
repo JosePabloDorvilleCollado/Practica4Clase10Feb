@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Ejemplo_Procedimientos
+{
+    class Program
+    {
+        static void Imprimir(int s)
+        {
+            Console.SetCursorPosition(5, 13);
+            Console.Write("la suma de los numeros es : +s");
+        }
+        static void Main(string[] args)
+        {
+            int a, b, suma;
+            Console.Clear();
+            Console.SetCursorPosition(5, 10);
+            Console.Write("Digite un numero: ");
+            a = Convert.ToInt16(Console.ReadLine());
+            Console.SetCursorPosition(5, 11);
+            Console.Write("Digite un numero: ");
+            b = Convert.ToInt16(Console.ReadLine());
+            suma = a + b;
+            Imprimir(suma);
+            Console.ReadKey();
+        }
+    }
+}
